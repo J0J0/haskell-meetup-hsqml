@@ -5,5 +5,7 @@ Shows some further QML basics like:
 
 You can use the the utility program `qmlscene` (included in the
 *qt-declarative* submodule of Qt5) to run this example:
+
     qmlscene ex2.qml
+
 (Alternatively, you could adapt the files from ex1 and make an executable ...) 

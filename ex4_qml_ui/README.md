@@ -6,4 +6,5 @@ and instantiate `Xyz` objects in your main file. (Here, `Xyz`
 is `CountTimer`.)
 
 Run this example via:
+
     qmlscene ex4.qml
