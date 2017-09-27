@@ -1,0 +1,21 @@
+name:                ex4
+version:             0.1
+synopsis:            An example demonstrating HsQML
+license:             PublicDomain
+author:              Johannes W.
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable Ex4
+  main-is:             Ex4.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.8 && < 5
+                     , text >= 1.2
+                     , hsqml >= 0.3.4.1
+  default-language:    Haskell2010
+
+executable Ex4_simple
+  main-is:             Ex4_simple.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       hsqml >= 0.3.4.1
+  default-language:    Haskell2010
